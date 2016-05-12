@@ -1,0 +1,115 @@
+%\title{My two column CV}
+%
+% tccv (two columns curriculum vitae) is a LaTeX class inspired by
+% the template found at latextemplates.com by Alessandro Plasmati.
+%
+% Create by Nicola Fontana, the original files can be downloaded from:
+% http://dev.entidi.com/p/tccv/
+%
+\documentclass{tccv}
+\usepackage[english]{babel}
+\usepackage{bm}
+\begin{document}
+
+\part{Apoorv Kumar}
+	 {\fontfamily{phv}\selectfont\large Objective $\vert$ \fontfamily{cmr}\selectfont\large Work on high impact computer systems with steep growth of responsibilities and skills.}
+     
+\section{Work experience}
+
+\begin{eventlist}
+
+\item{October 2014 -- Present}
+     {IMD Technology, Goldman Sachs}
+     {Analyst, GSAM Data Platform}
+
+
+Helped onboard and administer in memory \textit{MemSQL} which \textbf{reduced
+the OTLP times} from minutes to sub-second. Developed a \textbf{secure auto-expiring token based authentication} on Kerberos V5 to access non-kerberized DBs. Developed \textbf{high throughput streaming} infra between \textit{Sybase IQ} and \textit{MemSQL}. Deployed \textit{Elastic Search} to \textbf{ingest raw legacy logs for search and visualization}. Developed \textbf{load balancing \& throttling algorithm} based on historical load stats using \textit{Apache Spark}. Algorithm reduced server crashes 10x.
+
+\item{November 2013 -- October 2014}
+     {IMD Strats, Goldman Sachs}
+     {Analyst, Core Strat}
+
+\textbf{First team member} in Bangalore with rest of the team spread across NY and London. \textbf{Grew the Bangalore unit to 5} over 2 years (larger than NY and London teams). Developed \textbf{light-weight event driven triggers} for data availability replacing old polling systems. \textbf{Improved data replication latency \& throughput} into HA clusters using native Sybase replication and transaction logs. Helped develop \textbf{DB agnostic high level language} over SQL for business logic.
+Migrated team to IMD Tech.
+
+\item{May 2013 -- September 2013}
+     {IMD Strats, Goldman Sachs}
+     {Analyst, Quant Strat}
+
+Worked on \textbf{guidelines enforcement tool} for trades to follow regulatory/client guidelines for asset classes \& risk-return characteristics. Worked on \textbf{portfolio rebalancing \& trade planning tool} to improve prospective and retrospective analytics on trades. 
+
+
+\end{eventlist}
+
+\section{Internships}
+\begin{eventlist}
+
+\item{May 2012 -- July 2012}
+     {Qualcomm India Pvt Ltd, Hyderabad}
+     {Linux Platform Team}
+Developed proprietary \textbf{Digital Video Broadcasting driver} (extension of Linux DVB) to leverage strengths of Qualcomm processors on Android. Analyzed microkernels to run on a low power microprocessor to \textbf{receive and decode multiplexed data streams} supporting process \& memory mgmt, IPC and IO.
+
+
+\end{eventlist}
+
+
+\personal
+	[in.linkedin.com/in/apoorvkumart]
+    {+91 7259211363}
+    {apoorv.kumar247@gmail.com}
+
+\section{Education}
+
+\begin{yearlist}
+
+\item[CBSE\newline Physics/Chem/Maths - 91\%]{2007 - 09}
+     {Senior Secondary School}
+     {DAV Kota, Rajasthan}
+
+\item[Computer Science \& Engg \newline CGPA - 7.87/10]{2009 - 13}
+     {Bachelor of Technology}
+     {IIT Guwahati}
+
+\end{yearlist}
+
+\section{Publications}
+
+\begin{yearlist}
+
+\item{2014}
+     {IEEE VLSI Design and Test 18th International Conference}
+     {Modelling and analysis of wireless communication over Network-on-Chip}
+
+\end{yearlist}
+
+\section{Software skills}
+
+\begin{factlist}
+
+\item{Industry}
+     {Java, Scala, SQL, Bash, Java Script, Apache Spark, Elastic Search, Apache Hadoop, Sybase IQ/ASE,  MySQL Cluster, MemSQL, Kerberos, Linux}
+
+\item{Academic}
+     {C, C++, Python, VLSI, SystemC}
+
+\end{factlist}
+
+\section{Achievements}
+
+\begin{factlist}
+\item{2009}{Rank 1376, IIT JEE}
+\item{2011}{Rank 22, ACM ICPC Regional}
+\item{2013}{Started IMD Core Strat team in Bangalore}
+\end{factlist}
+
+
+\section{Courses}
+
+\begin{factlist}
+\item{Maths}{Discrete Mathematics, Theory of Computation, Formal Languages}
+\item{CS}{Operating Systems, Compilers, Databases, Distributed Computing, Wireless Networks, Communication networks, Compilers OOP, Software Engg., Advanced Computer Arch.}
+\item{Econ.}{Macro Economics, Capital Markets, Algorithmic Game Theory, International Economics}
+\end{factlist}
+
+\end{document}
